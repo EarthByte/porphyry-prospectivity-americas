@@ -18,16 +18,10 @@ Running the notebooks in sequence, beginning with `01-create_pu_classifier.ipynb
     - `01-create_pu_classifier.ipynb`
     - `02-create_probability_maps.ipynb`
     - `03-create_probability_animation.ipynb`
-1. Run these notebooks to train an SVM classifier and create prospectivity maps (optional):
-    - `01a-create_svm_classifier_svm.ipynb`
-    - `02a-create_probability_maps_svm.ipynb`
-    - `03a-create_probability_animation_svm.ipynb`
-1. Run the `01b-cross_validation.ipynb` notebook to perform cross validation and compare PU and SVM models
 
 ### To create the figures:
 To create the figures used in the article, run the following notebooks:
 - `Fig-01-02-probability_snapshots.ipynb`
-- `Fig-03-time_dependent_present_day_probabilities.ipynb`
-- `Fig-04-feature_importance.ipynb`
+- `Fig-03-04-feature_importance.ipynb`
 - `Fig-05-partial_dependence.ipynb`
 - `Fig-06-performance.ipynb`
